@@ -1,0 +1,82 @@
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&family=Tilt+Prism&display=swap');
+
+/* for the background attachment
+fixed = for short content
+scroll = the scroll will follow every scroll you make. */
+.bg{
+    background-color: aqua;
+    background-image: url("https://avatars.githubusercontent.com/u/83742747?v=4");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* background: bg-color || bg-image || bg-position || bg-size || bg-repeat */
+    background: aquamarine url('sample.jpg') center cover no repeat;
+
+    background: rgb(2,0,36);
+    background: linear-gradient(9deg, rgba(2,0,36,1) 0%, rgba(121,9,115,1) 35%, rgba(0,212,255,1) 100%);
+
+}
+.font-example{
+    font-size: 30px;
+    font-weight: bold;
+    font-family: "Tilt Prism", sans-serif;
+    font-style: italic;
+    color: fuchsia;
+    background-color: cyan;
+}
+.text-example{
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: line-through;
+    font-size: 20px;
+}
+#spacing-exam{
+    line-height: 1.5;
+    letter-spacing: 5px;
+    color: rgb(206, 118, 4);
+    background-color: peachpuff;
+}
+
+/* Text-shadow
+1st number is x - coordinate
+2nd number is y - coordinate
+3rd number is blur radius
+last is the color of the shadow */
+
+#shadow-exam{
+    font-size: 20px;
+    text-indent: 10px;
+    text-shadow: 20px 10px 10px red;
+
+}
+.box-model{
+    background-color: coral;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 15px;
+    margin-right: 10px;
+
+
+    /* TOP RIGHT BOTTOM LEFT */
+    margin: 15px 10px 20px 25px;
+    padding: 15px 10px 8px 4px;
+
+    border: 10px dashed green;
+    border-radius: 10px;
+
+    text-align: center;
+
+    height: 150px;
+    width: 50px;
+
+}
+/* 
+ == MARGIN and PADDING ==
+    1 value = applied to all 4 sides
+    2 value = top and bottom side || right and left side
+    3 value = top || right and left side || bottom 
+    4 values = top || right || bottom || left
+*/
+
+/* border : border-width || border-style || border-color */

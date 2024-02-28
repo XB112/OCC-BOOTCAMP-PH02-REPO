@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        p{
+            color: green;
+        }
+    </style>
+</head>
+<body>
+    <!-- ORDER OF PRIORITY:
+                1. Inline CSS
+                2. Internal CSS
+                3. External CSS
+    -->
+
+    <p style="color: red;">This is a paragraph with external styling. </p>
+
+    <p style>This is a paragraph with inline styling.</p>
+
+    <p style="color: red;">This is a paragraph with inline styling.</p>
+
+    <p class="class-example"> This has a class selector</p>
+
+    <p id="p1"> This has an  ID Selector</p>
+
+    <a href="www.example.com">This is an example of an anchor tag with [href]</a>
+
+    <p href="www.example.com"> This is an example of a paragraph with [href]</p>
+
+    <a href="www.example2.com">This is an example of an anchor tag with specific [href]</a>
+
+    <h1 id="heading1"> Heading 1 - grouping selector</h1>
+    <h2 class="Heading2"> Heading 2 - grouping selector</h2>
+    <h3> Heading 3 - grouping selector</h3>
+</body>
+</html>

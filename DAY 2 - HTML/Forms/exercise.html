@@ -1,0 +1,54 @@
+<!--
+Exercise
+Create a HTML webpage of a registration form with these input fields.
+Use the appropriate input types for these information
+ First name
+Last name
+Age
+Nickname
+Marital Status
+Gender
+Address
+Email -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" id="fname" required>
+        <br>
+        <label for="Lname">Last Name:</label>
+        <input type="text" id="Lname" required>
+        <br>
+
+        <label for="Age">Age :</label>
+        <input type="number" id="Age" required>
+        <br>
+        
+        <label for="status">Marital Status</label>
+        <select id="status" id="status">
+            <option value="Single">Single</option>
+            <option value="Married">Married</option>
+            <option value="Divorce">Divorce</option>
+        </select>
+        <br>
+        <label for="Gender">Gender:</label>
+        <input type="radio" name="Gender" id="Male" value="Male" />
+        <label for="Male" >Male</label>
+        <input type="radio" name="Gender" id="Female" value="Female" />
+        <label for="Female" >Female</label>
+        <br>
+        <label for="address" >Address</label>
+        <input type="text" name="address" id="address"/>
+        <br>
+        <label for="email" >Email:</label>
+        <input type="email" id="email" placeholder="Enter your Email"/>
+
+    
+</body>
+</html>
