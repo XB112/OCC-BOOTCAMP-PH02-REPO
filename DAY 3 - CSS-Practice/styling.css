@@ -5,7 +5,7 @@ fixed = for short content
 scroll = the scroll will follow every scroll you make. */
 .bg{
     background-color: aqua;
-    background-image: url("https://avatars.githubusercontent.com/u/83742747?v=4");
+    background-image: url("https://images.rawpixel.com/image_800/cHJpdmF0ZS9sci9pbWFnZXMvd2Vic2l0ZS8yMDIzLTA5L3Jhd3BpeGVsX29mZmljZV8zNF9mbHVmZnlfY2h1YmJ5X3Bhc3RlbF9jYXRzX2thd2FpaV9hZXN0aGV0aWNfM182YTJkZjRmNS03NTZiLTQyODgtOWQ4Mi1lZmRlMmE1MTA2OWRfMS5qcGc.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
