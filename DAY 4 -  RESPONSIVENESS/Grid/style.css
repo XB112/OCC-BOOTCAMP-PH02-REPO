@@ -1,0 +1,29 @@
+
+.gridItem{
+    min-width: 20px;
+    min-height: 100px;
+    border: 2px black solid;
+    background-color: lightblue;
+    text-align: center;
+}
+
+body{
+    background-color: fuchsia;
+}
+
+.gridContainer{
+    /* grid-template || First number = row value || Second Number is colum value || */
+
+    display: grid;
+    /* grid-template-columns: auto auto auto; 
+    grid-template-rows: 200px 120px; */
+    /* grid-template: 200px 80px/auto auto auto; */
+    justify-content: space-around;
+    align-content: baseline;
+    gap: 20px;
+    
+
+    grid-template-columns: repeat(2, 33%);
+
+    grid-template-rows: repeat(3,auto);
+}   

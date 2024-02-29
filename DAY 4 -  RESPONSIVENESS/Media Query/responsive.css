@@ -1,0 +1,119 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* || General Styles */
+body{
+    /* VH = View Height */
+    font: 1.5rem "Nunito",sans-serif
+    ;min-height: 100vh;
+    background-color: #475569;
+    background-image: radial-gradient(whitesmoke, #423950);
+    display: flex;
+    flex-direction: column;
+}
+
+header, footer{
+    position: sticky;
+    background-color: #cd87db;
+    color: whitesmoke;
+}
+
+header{
+    top: 0;
+
+}
+nav{
+    background-color: #2ec7cc;
+    color: #cd87db;
+    padding: 0.5rem;
+    border-bottom: 2px solid #423950;
+}
+main{
+    flex-grow: 1;
+}
+
+footer{
+    bottom: 0;
+}
+
+/* Break point      DesCription
+    <481 px         Mobile Devices
+    481px - 768px   Ipads,Tables
+    1025px - 1200 px Dekstops,  Large Screen
+    1201px and greater Extra L              arge Screen, TV */
+
+@media  screen and (max-height: 425px) {
+    body{
+    background-color: rgb(14, 59, 184);
+    background-image: radial-gradient(whitesmoke, rgb(5, 41, 77),);
+
+    /* h1, h2{
+        font-size: 1.5rem;
+    } */
+
+    nav {
+        display: none;
+    }
+
+
+    }
+}
+
+@media screen and (min-width: 576px) {
+    body{
+        background-color: green;
+        background-image: radial-gradient(whitesmoke, green);
+    
+        /* h1, h2{
+            font-size: 1.5rem;
+        } */
+    
+       
+    
+    
+        }
+
+        @media screen and (min-width: 768px) {
+            body{
+                background-color: gold;
+                background-image: radial-gradient(whitesmoke, gold);
+            
+                /* h1, h2{
+                    font-size: 1.5rem;
+                } */
+            
+               
+            
+            
+                }
+            }
+            @media screen and (min-width: 991px) {
+                body{
+                    background-color: firebrick;
+                    background-image: radial-gradient(whitesmoke, firebrick);
+                
+                    /* h1, h2{
+                        font-size: 1.5rem;
+                    } */
+                
+                    
+                
+                
+                    }
+                }
+
+                @media screen and (min-width: 1025px) {
+                    body{
+                        background-color: purple;
+                        background-image: radial-gradient(whitesmoke,purple);
+                    
+                        
+                    
+                    
+                        
+                    }
+                }
+
+}
